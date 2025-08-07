@@ -159,7 +159,6 @@ span {
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
-    transition: all 2s ease-in 1s;
       
 }
 .box {
@@ -169,10 +168,6 @@ span {
     padding: 30px 0px  20px;
     margin-top: 5px;
    
-}
-.box:hover {
-   font-weight: bolder;
-   background-color:dimgray;
 }
 .box-img {
     
