@@ -243,11 +243,6 @@ ul a {
     padding-top: 5px;
 }
 
-/* ============================= */
-/* 📱 Responsive Media Queries   */
-/* ============================= */
-
-/* Tablets (≤ 1024px) */
 @media (max-width: 1024px) {
     .nav-search {
         width: 450px;
@@ -261,7 +256,6 @@ ul a {
     }
 }
 
-/* Mobile (≤ 768px) */
 @media (max-width: 768px) {
     .navbar {
         flex-wrap: wrap;
@@ -306,7 +300,6 @@ ul a {
     }
 }
 
-/* Extra Small Devices (≤ 480px) */
 @media (max-width: 480px) {
     .navbar {
         flex-direction: column;
