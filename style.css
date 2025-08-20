@@ -1,8 +1,11 @@
 * {
     margin: 0;
-    font-family: Arial ;
-    border: border-box;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
+
+
 .navbar {
     height: 60px;
     background-color: black;
@@ -328,5 +331,47 @@ ul a {
     }
     .box-img {
         height: 200px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .nav-logo {
+        width: 80px;
+    }
+    .nav-cart i {
+        font-size: 20px;
+    }
+    .panel-option p {
+        margin-left: 8px;
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .box {
+        width: 48%;
+    }
+}
+
+@media (max-width: 360px) {
+    .navbar {
+        padding: 5px;
+        font-size: 0.75rem;
+    }
+    .nav-search {
+        flex-direction: column;
+        width: 100%;
+    }
+    .hero-section {
+        height: 250px;
+        background-position: center;
+    }
+    .box {
+        width: 100%;
+        padding: 10px;
+    }
+    .foot-panel1 {
+        font-size: 1rem;
     }
 }
